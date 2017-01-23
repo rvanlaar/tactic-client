@@ -29,6 +29,11 @@ setup(name='tactic_client_lib',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
+      entry_points={
+          'console_scripts': [
+              'get_ticket = tactic_client_lib.get_ticket:cli',
+              'create_project = tactic_client_lib.create_project:cli'
+              ]},
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'License :: OSI Approved',

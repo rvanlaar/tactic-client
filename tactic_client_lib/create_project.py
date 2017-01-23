@@ -52,13 +52,10 @@ def main(args):
 
 
 
-if __name__ == '__main__':
-    
+def cli():
     executable = sys.argv[0]
     args = sys.argv[1:]
     if len(args) != 3:
         print "python create_project.py <project_code> <project_title> <project_type>"
         sys.exit(0)
     main(args)
-
-
