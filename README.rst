@@ -15,5 +15,6 @@ The code is taken from: `https://github.com/Southpaw-TACTIC/TACTIC/tree/4.6/src/
 
 For bugs relating to the packaging: `https://github.com/rvanlaar/tactic-client
 <https://github.com/rvanlaar/tactic-client>`_.
+
 For bugs relating to the actual code: `http://tacticopensource.com/forum
 <http://tacticopensource.com/forum>`_.
