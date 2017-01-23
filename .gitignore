@@ -1,0 +1,6 @@
+#emacs
+*.py~
+
+# build files
+dist/
+*.egg-info
