@@ -17,7 +17,7 @@ from tactic_client_lib import TacticServerStub, TacticApiException
 
 
 def main(args):
-    # USAGE: create_project.py <project_code> <project_title> <project_type> 
+    # USAGE: create_project.py <project_code> <project_title> <project_type>
     project_code = args[0]
     project_title = args[1]
     project_type = args[2]
@@ -26,7 +26,7 @@ def main(args):
     assert project_title
 
     regexs = '^\d|\W'
-    m = re.search(r'%s' % regexs, project_code) 
+    m = re.search(r'%s' % regexs, project_code)
     if m:
         raise TacticApiException('<project_code> cannot contain special characters or start with a number.')
 
@@ -38,9 +38,9 @@ def main(args):
         'project_code': project_code,
         'project_title': project_title,
         'project_type': project_type}
-    
-    
-        
+
+
+
         class_name = "tactic.command.CreateProjectCmd";
         ret_val = server.execute_cmd(class_name, args=args);
         print ret_val
