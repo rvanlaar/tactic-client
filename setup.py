@@ -2,9 +2,9 @@
 
 import codecs
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
-version = 0.1
+version = 0.3
 
 def read(filename):
     try:
@@ -16,13 +16,7 @@ def read(filename):
 
 
 
-long_description = u'\n\n'.join([read('README.rst'),
-                                 #read('CREDITS.rst'),
-                                 #read('CHANGES.rst')
-])
-
-long_description = long_description.encode('utf-8')
-
+long_description = read('README.rst').encode('utf-8')
 
 setup(name='tactic_client_lib',
       version=version,
@@ -32,6 +26,7 @@ setup(name='tactic_client_lib',
       author='Roland van Laar',
       author_email='roland@micite.net',
       url='https://github.com/rvanlaar/tactic-client',
+      packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
       classifiers=[
