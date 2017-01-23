@@ -9,7 +9,7 @@ It also installs the two bin scripts: `get_ticket` and `create_project`.
 Tactic
 ------
 
-Tactic is an Asset Management System. It is writtern by Southpaw.
+Tactic is an Asset Management System. It is written by Southpaw.
 The code is taken from: `https://github.com/Southpaw-TACTIC/TACTIC/tree/4.6/src/client
 <https://github.com/Southpaw-TACTIC/TACTIC/tree/4.6/src/client>`_.
 
