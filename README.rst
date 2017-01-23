@@ -18,3 +18,8 @@ For bugs relating to the packaging: `https://github.com/rvanlaar/tactic-client
 
 For bugs relating to the actual code: `http://tacticopensource.com/forum
 <http://tacticopensource.com/forum>`_.
+
+Tests
+-----
+
+There are tests, but I'm not running them yet. So no guarentees.
