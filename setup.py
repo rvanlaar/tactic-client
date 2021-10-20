@@ -21,7 +21,7 @@ long_description = read('README.rst').encode('utf-8')
 
 setup(name='tactic_client_lib',
       version=version,
-      install_requires=[],
+      install_requires=['six'],
       description='Tactic Client Library',
       long_description=long_description,
       author='Roland van Laar',
