@@ -33,14 +33,8 @@ setup(name='tactic_client_lib',
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'License :: OSI Approved',
-          'Programming Language :: Python',
-          'Programming Language :: Python :: 2.7',
-          'Programming Language :: Python :: 3.7',
-          'Programming Language :: Python :: 3.8',
-          'Programming Language :: Python :: 3.9',
-          'Programming Language :: Python :: 3.10',
-          'Programming Language :: Python :: 3.11',
+          'Programming Language :: Python :: 2',
+          'Programming Language :: Python :: 3',
       ],
-      python_requires=(">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*,"
-                       "!=3.5.*, !=3.6.*")
+      python_requires=">=2.7"
       )
