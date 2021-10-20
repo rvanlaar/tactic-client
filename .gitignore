@@ -1,6 +1,8 @@
 #emacs
 *.py~
+*.pyc
 
 # build files
 dist/
+build/
 *.egg-info

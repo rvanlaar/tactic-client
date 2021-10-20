@@ -10,24 +10,12 @@
 #
 #
 
-import sys, os, getpass
+from .maya_builder_exec import *
+from .maya_builder import *
+from .maya_environment import *
+from .maya_introspect import *
+from .maya_parser import *
+from .maya_app import *
+from .maya_anim_file import *
+from .maya_impl import *
 
-try:
-    import tacticenv
-except ImportError:
-    pass
-
-from tactic_client_lib import TacticServerStub
-
-
-def main(args):
-
-    server = TacticServerStub(setup=False)
-    server.get_info_from_user(force=True)
-    return
-
-
-def cli():
-    executable = sys.argv[0]
-    args = sys.argv[1:]
-    main(args)

@@ -6,6 +6,7 @@ from setuptools import setup, find_packages
 
 version = '0.5.dev0'
 
+
 def read(filename):
     try:
         with codecs.open(filename, encoding='utf-8') as f:
@@ -15,8 +16,8 @@ def read(filename):
             return f.read()
 
 
-
 long_description = read('README.rst').encode('utf-8')
+
 
 setup(name='tactic_client_lib',
       version=version,
@@ -29,15 +30,17 @@ setup(name='tactic_client_lib',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      entry_points={
-          'console_scripts': [
-              'get_ticket = tactic_client_lib.get_ticket:cli',
-              'create_project = tactic_client_lib.create_project:cli'
-              ]},
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'License :: OSI Approved',
+          'Programming Language :: Python',
           'Programming Language :: Python :: 2.7',
-          'Programming Language :: Python :: 2 :: Only',
-      ]
-     )
+          'Programming Language :: Python :: 3.7',
+          'Programming Language :: Python :: 3.8',
+          'Programming Language :: Python :: 3.9',
+          'Programming Language :: Python :: 3.10',
+          'Programming Language :: Python :: 3.11',
+      ],
+      python_requires=(">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*,"
+                       "!=3.5.*, !=3.6.*")
+      )
