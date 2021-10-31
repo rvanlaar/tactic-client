@@ -10,8 +10,8 @@ Tactic
 ------
 
 Tactic is an Asset Management System. It is written by Southpaw.
-The code is taken from: `https://github.com/Southpaw-TACTIC/TACTIC/tree/4.6/src/client
-<https://github.com/Southpaw-TACTIC/TACTIC/tree/4.6/src/client>`_.
+The code is taken from: `https://github.com/Southpaw-TACTIC/TACTIC/tree/4.8/src/client
+<https://github.com/Southpaw-TACTIC/TACTIC/tree/4.8/src/client>`_.
 
 For bugs relating to the packaging: `https://github.com/rvanlaar/tactic-client
 <https://github.com/rvanlaar/tactic-client>`_.

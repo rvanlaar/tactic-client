@@ -1,8 +1,7 @@
 include LICENSE
 include tactic_client_lib/VERSION*
-recursive-include examples *.py
+recursive-include bin/*.py
 recursive-include tactic_client_lib *.zip
-recursive-include test *.PNG
+recursive-include examples *.py
 recursive-include test *.jpg
-recursive-include test *.png
 recursive-include test *.py
