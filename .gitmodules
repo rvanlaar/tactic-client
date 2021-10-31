@@ -1,0 +1,3 @@
+[submodule "TACTIC"]
+	path = TACTIC
+	url = https://github.com/Southpaw-TACTIC/TACTIC.git
