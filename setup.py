@@ -4,7 +4,7 @@ import codecs
 
 from setuptools import setup, find_packages
 
-version = '4.8'
+version = '4.8.1.dev0'
 
 setup(name='tactic_client_lib',
       version=version,
