@@ -19,6 +19,11 @@ For bugs relating to the packaging: `https://github.com/rvanlaar/tactic-client
 For bugs relating to the actual code: `http://tacticopensource.com/forum
 <http://tacticopensource.com/forum>`_.
 
+Releases
+--------
+
+Releases are created with `zest.releaser <https://pypi.org/project/zest.releaser/>`_
+
 Tests
 -----
 
